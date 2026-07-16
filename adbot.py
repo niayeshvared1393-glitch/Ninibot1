@@ -23,8 +23,8 @@ logger = logging.getLogger(__name__)
 # تنظیمات پیش‌فرض
 CONFIG_FILE = "bot_config.json"
 DEFAULT_CONFIG = {
-    "host_usernames": ["ad0ri"],
-    "admin_usernames": ["ad0ri"],
+    "host_usernames": ["M_69999"],
+    "admin_usernames": ["M_69999"],
     "vip_usernames": [],
     "banned_users": [],
     "teleport_locations": {
@@ -2761,8 +2761,8 @@ async def main():
     attempt = 0
     while attempt < max_reconnect_attempts:
         try:
-            room_id = os.environ.get("ROOM_ID", room_id)
-            bot_instance = AdvancedBot()
+            room_id = os.environ.get("ROOM_ID" 6719f032823100c7d8644b70")
+            bot_instance = AdvancedBot(61b803869dda63cfef5f909d6acbc4c94ec93e1e2fc356b5be7c85d284328297)
             bot_def = BotDefinition(room_id=room_id, api_token=api_token, bot=bot_instance)
             logger.info(f"تلاش برای اتصال به سرور Highrise... روم: {room_id}")
             from highrise.__main__ import main as highrise_main
