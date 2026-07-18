@@ -2720,8 +2720,8 @@ async def main():
         logger.error("ROOM_ID یا API_TOKEN تنظیم نشده‌اند.")
         return
     
-    logger.info(f"ROOM_ID: {room_id}")
-    logger.info(f"API_TOKEN: {api_token}")
+    logger.info(f"ROOM_ID: 6719f032823100c7d8644b70")
+    logger.info(f"API_TOKEN: 61b803869dda63cfef5f909d6acbc4c94ec93e1e2fc356b5be7c85d284328297")
 
     # ساختار وب‌سرور داخلی و سبک پایتون
     class PingHandler(BaseHTTPRequestHandler):
@@ -2761,8 +2761,8 @@ async def main():
     attempt = 0
     while attempt < max_reconnect_attempts:
         try:
-            room_id = os.environ.get("ROOM_ID"6719f032823100c7d8644b70")
-            bot_instance = AdvancedBot"61b803869dda63cfef5f909d6acbc4c94ec93e1e2fc356b5be7c85d284328297)
+            room_id = os.environ.get("ROOM_ID", "6719f032823100c7d8644b70")
+            bot_instance = AdvancedBot", "61b803869dda63cfef5f909d6acbc4c94ec93e1e2fc356b5be7c85d284328297")
             bot_def = BotDefinition(room_id=room_id, api_token=api_token, bot=bot_instance)
             logger.info(f"تلاش برای اتصال به سرور Highrise... روم: {room_id}")
             from highrise.__main__ import main as highrise_main
