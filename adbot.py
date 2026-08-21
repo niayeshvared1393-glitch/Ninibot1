@@ -2713,7 +2713,7 @@ async def main():
     from http.server import BaseHTTPRequestHandler, HTTPServer
     
     logger.info("تلاش برای بارگذاری متغیرهای محیطی...")
-    room_id = os.getenv("ROOM_ID", "https://create.highrise.game/asset-catalog/6a882d43f97d89f1bb47f95d")
+    room_id = os.getenv("ROOM_ID", "6a882d43f97d89f1bb47f95d")
     api_token = os.getenv("API_TOKEN", "cb8021d11e0c3d6accc31b742777f404d5d2c5b9b26bafb8c8ae3d8cd8f139f1")
     
     if not room_id or not api_token:
