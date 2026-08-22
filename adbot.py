@@ -23,8 +23,8 @@ logger = logging.getLogger(__name__)
 # تنظیمات پیش‌فرض
 CONFIG_FILE = "bot_config.json"
 DEFAULT_CONFIG = {
-    "host_usernames": ["M_69999"],
-    "admin_usernames": ["M_69999"],
+    "host_usernames": ["the_nini"],
+    "admin_usernames": ["the_nini"],
     "vip_usernames": [],
     "banned_users": [],
     "teleport_locations": {
@@ -2720,8 +2720,8 @@ async def main():
         logger.error("ROOM_ID یا API_TOKEN تنظیم نشده‌اند.")
         return
     
-    logger.info(f"ROOM_ID: 6719f032823100c7d8644b70")
-    logger.info(f"API_TOKEN: 61b803869dda63cfef5f909d6acbc4c94ec93e1e2fc356b5be7c85d284328297")
+    logger.info(f"ROOM_ID: 6a843b83cec148247c2b5473")
+    logger.info(f"API_TOKEN: e4fba3a1f5c55d19f9b58cba44e773caaf9928e30abd42c439ac3f5d469d6ab8")
 
     # ساختار وب‌سرور داخلی و سبک پایتون
     class PingHandler(BaseHTTPRequestHandler):
