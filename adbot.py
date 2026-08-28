@@ -33,7 +33,7 @@ DEFAULT_CONFIG = {
         "dj": {"x": 9.5, "y": 10.75, "z": 10.5}
     },
     "language": "fa",
-    "welcome_message": "سلام خوش اومدی {@username} !اینجا تیپ گلد هم داریم پس بمون تا از دست نزدی💕🌷",
+    "welcome_message": "سلام خوش اومدی {username} !اینجا تیپ گلد هم داریم پس بمون تا از دست نزدی💕🌷",
     "announcement_interval": 300,
     "announcement_message" : "برای حمایت از من تو شیشه گلد بندازین💜🪻!"
 }
